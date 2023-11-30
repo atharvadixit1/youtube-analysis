@@ -18,7 +18,9 @@ Note: For the 2nd file, US_youtube_trending_dataset.csv - please download the fi
 https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset
 
 This is because, the dataset is too big (around 345 MB), thus it cannot be added to GitHub as an attachment.
+
 Instead, we have included a smaller sample (10%) in our data folder.
+**If using the sampled dataset to test, you will need to add `engine='python'` to the pd.read_csv function, as it will fail otherwise.**
 
 Supervised ML Algorithms used:
 1. Multinomial Naive Bayes (MNB)
