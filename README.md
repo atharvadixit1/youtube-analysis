@@ -13,6 +13,11 @@ Primary files:
 1. US_category_id.json
 2. US_youtube_trending_dataset.csv
 
+Note: For the 2nd file, US_youtube_trending_dataset.csv - please download the file from the kaggle link below:
+https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset
+
+This is because, the dataset is too big (around 345 MB), thus it cannot be added to GitHub as an attachment.
+
 Supervised ML Algorithms used:
 1. Multinomial Naive Bayes (MNB)
 2. Support Vector Classifier (SVC)
